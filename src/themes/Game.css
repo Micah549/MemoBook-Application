@@ -1,0 +1,25 @@
+.board-Design {
+	display: flex;
+	flex-flow: row wrap;
+	width: 605px;
+	height: 604px;
+	border: 2px solid rgb(26, 156, 32);
+	box-sizing: border-box;
+    
+}
+
+.square-Design {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    border: 3px solid rgb(127, 125, 238);
+    font-size: 3em;
+    box-sizing: border-box;
+}
+
+.content-Area{
+    margin:auto auto;
+    justify-content: center;
+}

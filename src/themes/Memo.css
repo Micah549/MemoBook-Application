@@ -1,0 +1,58 @@
+body{
+background: rgb(218, 228, 240);
+}
+
+.container{
+        flex-wrap: wrap;  
+        background: rgb(93, 175, 201);
+        width: 70vw;
+        margin: 10em auto;
+        border-radius: 15px;
+        padding: 20px 10px;
+        color: white;
+        border: 3px solid rgb(109, 132, 158);
+        margin-top: 0;
+      
+}
+
+.task button{
+    background: rgb(12, 124, 251);
+    border-radius: 5px;
+    margin: 0px 5px;
+    padding: 3px 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    float: right;
+  }
+
+.list-Items{
+     margin: 10px;
+     font-size: xx-large;
+     font-family: 'Sansita Swashed', cursive;
+    }
+
+textarea{
+    font-family: 'Lobster', cursive;
+    font-size: medium;
+
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #1685ee;
+    color: #fff;
+}
+
+button:hover{
+    padding: 10px;
+    border-radius: 5px;
+    background-color :#dfdfe2;
+    color :#0384fc;
+}
+
+label{
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
+
+}
